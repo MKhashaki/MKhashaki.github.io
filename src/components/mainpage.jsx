@@ -2,7 +2,8 @@ import React, { Component } from "react";
 class main extends Component {
 	state = {};
 	render() {
-		const repoClasses = "h-60 w-60 bg-green-800 flex rounded-xl relative object-cover text-white";
+		const repoClasses =
+			"h-60 w-60 bg-green-800 flex rounded-xl relative object-cover text-white";
 
 		return (
 			<div className="absolute w-full h-[3000px] bg-gray-800">
@@ -21,7 +22,7 @@ class main extends Component {
 								alt="repo1"
 								className="object-cover rounded-xl"
 							/>
-							<div className="absolute bottom-0 p-3 h-52 bg-gradient-to-t from-gray-800 w-full">
+							<div className="absolute bottom-0 p-3 h-52 bg-gradient-to-t from-gray-800 w-full rounded-xl">
 								<p className="bottom-3 absolute">FEM Projects</p>
 							</div>
 						</div>
